@@ -7,7 +7,7 @@ RUN 	mkdir /swaggerui && \
 	apt-get install -y unzip
 
 # We pull in our own config files, and get a specific version of SwaggerUI
-ADD https://github.com/swagger-api/swagger-ui/archive/v2.1.4.zip /swaggerui
+ADD https://github.com/swagger-api/swagger-ui/archive/v2.1.4.zip /swaggerui/
 ADD src/nginx.conf /etc/nginx/nginx.conf
 ADD src/swagger.json /swaggerui/swagger/swagger.json
 
