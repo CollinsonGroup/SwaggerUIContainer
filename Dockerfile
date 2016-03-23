@@ -1,5 +1,7 @@
 FROM nginx
 
+MAINTAINER matt.kimber@collinsongroup.com
+
 # Set up the directories and install unzip
 RUN 	mkdir /swaggerui && \
 	mkdir /swaggerui/swagger && \
